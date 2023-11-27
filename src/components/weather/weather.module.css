@@ -1,0 +1,64 @@
+.wrapper {
+    margin: 0 auto;
+    padding: 2rem;
+    width: 500px;
+    min-height: 500px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.head {
+    margin: 0 0 1.5rem;
+    font-size: 32px;
+    text-align: center;
+}
+
+.text {
+    margin: 0 0 2rem;
+    font-size: 24px;
+    text-align: center;
+}
+
+.input {
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.5rem;
+    min-width: 200px;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.button {
+    display: block;
+    margin: 0 auto 2rem;
+    padding: 1rem 1.5rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 255, 0.6);
+    border: 1px solid gba(0, 0, 255, 1);
+    color: white;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.error {
+    margin: 0 0 1.5rem;
+    color: red;
+    text-align: center;
+}
+
+.inner {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.loading {
+    text-align: center;
+}
